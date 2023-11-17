@@ -30,3 +30,23 @@ while(flag){
 start()是开辟
 run()是继续执行
 ```
+
+# 5.模块化
+```
+class Fan extents JPanel{
+    
+}
+然后就可以像一个类一样去编辑它
+
+画东西的时候使用：
+protected void paintComponent(Graphics g) {
+}
+
+重绘的时候用
+repaint();
+
+添加到JFrame中也是直接new：
+Fan fan = new Fan();
+contentPane.add(fan);
+
+```
